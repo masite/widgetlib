@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Widgetlib</string>
+    <string name="no_data">暂时没有数据</string>
+    <string name="cmn_refresh">刷新</string>
+    <string name="cmn_exception_un_know">未知错误</string>
+    <string name="cmn_no_net_hint">请检查你的网络设置或刷新重试</string>
+    <string name="cmn_no_net">网络不给力</string>
+</resources>

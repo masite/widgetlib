@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/error_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:visibility="gone"
+    >
+
+  <ImageView
+      android:id="@+id/error_img"
+      android:layout_width="62dp"
+      android:layout_height="62dp"
+      android:src="@mipmap/ic_cry"
+      />
+
+  <TextView
+      android:id="@+id/error_text"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="12dp"
+      android:gravity="center"
+      android:text="@string/cmn_exception_un_know"
+      android:textColor="#666666"
+      android:textSize="12sp"
+      />
+
+  <!--<TextView-->
+  <!--android:id="@+id/tvHint"-->
+  <!--android:layout_width="wrap_content"-->
+  <!--android:layout_height="wrap_content"-->
+  <!--android:layout_marginTop="@dimen/dp_4"-->
+  <!--android:gravity="center"-->
+  <!--android:text="@string/cmn_no_net_hint"-->
+  <!--android:textColor="@color/grey_666666"-->
+  <!--android:textSize="@dimen/cmn_error_text_3_size"-->
+  <!--/>-->
+
+  <TextView
+      android:id="@+id/error_reload_btn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="36dp"
+      android:gravity="center"
+      android:text="@string/cmn_refresh"
+      android:textColor="#00bebe"
+      android:textSize="16sp"
+      android:visibility="gone"
+      />
+</LinearLayout>
